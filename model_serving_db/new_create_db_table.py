@@ -4,7 +4,9 @@ from const import CLOUD_SQL_HOST, CLOUD_SQL_PORT, ROOT_USER, ROOT_PASSWORD
 def execute_sql_command(command, db_name=None, root_user=ROOT_USER, root_password=ROOT_PASSWORD):
     """
     Execute SQL against Cloud SQL using the mysql client.
-    Uses: mysql -h HOST -P PORT -u root [-p***] [-D db] -e "<SQL>"
+
+    Runs:
+        mysql -h HOST -P PORT -u root [-p***] [-D db] -e "<SQL>"
     """
     mysql_cmd = [
         "mysql",
@@ -35,7 +37,7 @@ def execute_sql_command(command, db_name=None, root_user=ROOT_USER, root_passwor
 
 def create_database(db_name, db_user, db_password, root_user=ROOT_USER, root_password=ROOT_PASSWORD):
     """
-    Create database and app user in Cloud SQL.
+    Create database and user in Cloud SQL.
     """
     sql_commands = f"""
     CREATE DATABASE IF NOT EXISTS {db_name};
