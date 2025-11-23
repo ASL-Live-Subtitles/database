@@ -11,7 +11,7 @@ ROOT_PASSWORD = "modelservingpassword"  # If you set a root password during hard
 # === App DB/user ===
 ASL_DB_NAME = "model_serving_db"
 ASL_DB_USER = "model_serving_user"
-ASL_DB_PASSWORD = "ModelServingP@ssw0rd123!" 
+ASL_DB_PASSWORD = "H7!qZ9p#L2vBn3" 
 
 # === Table names (to keep usage consistent) ===
 USERS_TABLE_NAME = "users"
