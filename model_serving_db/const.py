@@ -1,4 +1,10 @@
-# === Admin (same pattern as your teammates) ===
+# === Admin ===
+
+
+CLOUD_SQL_HOST = "136.113.187.126"   # from SQL instance details page
+CLOUD_SQL_PORT = 3306
+
+
 ROOT_USER = "root"
 ROOT_PASSWORD = "modelservingpassword"  # If you set a root password during hardening, put it here (or leave None)
 
