@@ -1,4 +1,4 @@
-from create_db_table import *
+from new_create_db_table import *
 from const import *
 import sys
 
