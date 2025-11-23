@@ -1,11 +1,17 @@
-# === Admin (same pattern as your teammates) ===
+# === Admin ===
+
+
+CLOUD_SQL_HOST = "136.113.187.126"   # from SQL instance details page
+CLOUD_SQL_PORT = 3306
+
+
 ROOT_USER = "root"
-ROOT_PASSWORD = None  # If you set a root password during hardening, put it here (or leave None)
+ROOT_PASSWORD = "modelservingpassword"  # If you set a root password during hardening, put it here (or leave None)
 
 # === App DB/user ===
 ASL_DB_NAME = "model_serving_db"
 ASL_DB_USER = "model_serving_user"
-ASL_DB_PASSWORD = "modelservingpassword"  # TODO: change this
+ASL_DB_PASSWORD = "H7!qZ9p#L2vBn3" 
 
 # === Table names (to keep usage consistent) ===
 USERS_TABLE_NAME = "users"

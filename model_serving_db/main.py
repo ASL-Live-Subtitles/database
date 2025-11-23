@@ -1,12 +1,12 @@
-from create_db_table import *
+from new_create_db_table import *
 from const import *
 import sys
 
 def main():
     try:
         # 1) DB + user
-        if not create_database(ASL_DB_NAME, ASL_DB_USER, ASL_DB_PASSWORD, ROOT_USER, ROOT_PASSWORD):
-            sys.exit(1)
+        # if not create_database(ASL_DB_NAME, ASL_DB_USER, ASL_DB_PASSWORD, ROOT_USER, ROOT_PASSWORD):
+        #     sys.exit(1)
 
         # 2) Tables (drop + create)
         if not create_table(ASL_DB_NAME, USERS_TABLE_NAME, USERS_TABLE_SQL, ROOT_USER, ROOT_PASSWORD):
