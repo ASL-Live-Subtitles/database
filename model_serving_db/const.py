@@ -1,6 +1,6 @@
 # === Admin (same pattern as your teammates) ===
 ROOT_USER = "root"
-ROOT_PASSWORD = None  # If you set a root password during hardening, put it here (or leave None)
+ROOT_PASSWORD = "modelservingpassword"  # If you set a root password during hardening, put it here (or leave None)
 
 # === App DB/user ===
 ASL_DB_NAME = "model_serving_db"
